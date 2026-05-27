@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.femm
+*.ans
+outputs/
+.ipynb_checkpoints/
+.DS_Store
