@@ -1,4 +1,5 @@
 Topology Optimization of a 2D Magnetic Actuator using Evolutionary Computation
+
 This project implements topology optimization on a C-core electromagnet using two shape parameterization methods — Normalized Gaussian Networks (NGN) and Radial Basis Functions (RBF) — with a Genetic Algorithm as the optimizer and FEMM as the electromagnetic simulator.
 Built as preparation for a thesis project on coaxial magnetic gear optimization. The core idea is the same as the professor's work — use NGN/RBF to represent the iron shape as a continuous density field, threshold it to a binary iron/air map, simulate it with FEMM, and let the GA evolve the shape toward maximum flux linkage.
 
