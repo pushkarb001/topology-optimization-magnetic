@@ -67,8 +67,6 @@ def run_ga(fitness_fn, n_weights, pop_size=20, n_generations=30,
 
     return best_individual, best_fitness, best_fitness_history, avg_fitness_history
 
-print("ga.py is running")
-
 if __name__ == '__main__':
     # testing on Rastrigin before connecting to FEMM
     # it has many local minima which makes it a good GA benchmark
